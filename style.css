@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color:white;
+  }
+  .cont{
+      margin: 50px;
+  }
+  .title{
+      text-align: center;
+      padding: 20px;
+  }
+  .main-flex{
+    display: flex;
+    flex-direction: row; 
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+    width: 60%;
+  }
+  .mains{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+    width: 30%;  
+  }
+  .ch{
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid powderblue; */
+    padding: 20px;
+    color: white;
+ /* background: #989292 url('https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg') 100% 100% no-repeat; */
+ box-shadow:0 10px 10px rgba(238, 189, 189, 0.15)
+
+  }
+  .cheld{
+
+    height: 30%;
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid powderblue; */
+    padding: 20px;
+    color: white; 
+    box-shadow:0 10px 10px rgba(238, 189, 189, 0.15)
+
+
+
+  }
+  p{
+      color: black;
+      width: 80%;
+      word-break: break-all;
+  }
+  .ti{
+      text-align: left;
+      color: black;
+  }
+  .mains{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    margin: 0 auto;
+    height: 100%; 
+  }
+  .siz{
+      width: 100%;
+  }
+  .btn{
+    margin: 20px;
+    width: 100px;
+    height: 20%;;
+  }
+  @media (max-width:552px){
+    .main-flex{
+      justify-content:space-around;
+      flex-direction: column;
+    }
+    .mains{
+      width: 100%;
+    }
+    .main{
+      width: 100%;
+    }
+    p{
+      color: black;
+      width: 100%;
+      /* word-break: break-all; */
+  }
+  }
